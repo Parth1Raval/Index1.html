@@ -1,2 +1,31 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csv Page</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: rgb(0, 255, 102);
+        }
+        button{
+            color: rgb(226, 116, 43);
+        }
+        </style>
+</head>
+<body>
+    <h1>Please Upload Csv Files</h1>
+    <form id="upload-form">
+        <label for="file1">Upload Group Members CSV:</label>
+        <input type="file" id="file1" name="file1">
+        <br><br>
+        <label for="file2">Upload Room Capacity CSV:</label>
+        <input type="file" id="file2" name="file2">
+        <br><br>
+        <button type="submit">Upload Files</button>
+      </form>
+</body>
+</html>
